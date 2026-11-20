@@ -1,0 +1,11 @@
+# Archivos que NO se suben a GitHub (se generan solos en cada ordenador)
+
+# Entorno virtual de Python (se crea con: python -m venv venv)
+venv/
+__pycache__/
+
+# Carpetas de compilación y de Visual Studio
+bin/
+obj/
+.vs/
+*.user

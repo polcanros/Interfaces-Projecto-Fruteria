@@ -1,0 +1,90 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Manzana",
+      "categoria": "Fruta",
+      "precioKg": 2.5,
+      "stockKg": 39.5
+    },
+    {
+      "id": 2,
+      "nombre": "Plátano",
+      "categoria": "Fruta",
+      "precioKg": 1.9,
+      "stockKg": 20.0
+    },
+    {
+      "id": 3,
+      "nombre": "Naranja",
+      "categoria": "Fruta",
+      "precioKg": 1.6,
+      "stockKg": 4.0
+    },
+    {
+      "id": 5,
+      "nombre": "Lechuga",
+      "categoria": "Verdura",
+      "precioKg": 1.2,
+      "stockKg": 3
+    }
+  ],
+  "ventas": [
+    {
+      "id": 1,
+      "fecha": "2026-11-20 13:55:29",
+      "lineas": [
+        {
+          "productoId": 2,
+          "nombre": "Plátano",
+          "kilos": 1.0,
+          "precioKg": 1.9,
+          "subtotal": 1.9
+        },
+        {
+          "productoId": 2,
+          "nombre": "Plátano",
+          "kilos": 1.0,
+          "precioKg": 1.9,
+          "subtotal": 1.9
+        },
+        {
+          "productoId": 2,
+          "nombre": "Plátano",
+          "kilos": 1.0,
+          "precioKg": 1.9,
+          "subtotal": 1.9
+        },
+        {
+          "productoId": 2,
+          "nombre": "Plátano",
+          "kilos": 1.0,
+          "precioKg": 1.9,
+          "subtotal": 1.9
+        },
+        {
+          "productoId": 2,
+          "nombre": "Plátano",
+          "kilos": 1.0,
+          "precioKg": 1.9,
+          "subtotal": 1.9
+        }
+      ],
+      "total": 9.5
+    },
+    {
+      "id": 2,
+      "fecha": "2026-11-20 13:56:04",
+      "lineas": [
+        {
+          "productoId": 1,
+          "nombre": "Manzana",
+          "kilos": 0.5,
+          "precioKg": 2.5,
+          "subtotal": 1.25
+        }
+      ],
+      "total": 1.25
+    }
+  ]
+}
